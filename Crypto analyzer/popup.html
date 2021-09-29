@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="jquery.dataTables.min.js"></script>
+    <title>Crypto Analyzer</title>
+</head>
+<body>
+    <h1 style="display: none;"><i class="fab fa-snapchat-ghost"></i> Search cryptocurrency</h1>
+  <div class="form">
+    <h3 style="display: none">Enter Cryptocurrency name</h3>
+    <input id="name" placeholder="Crypto Name" style="display: none">
+    <button type="button" id="b" class="button" style="display: none">Search</button>
+  </div>
+  <table id="example" class="display" style="width:100%; display: none;">
+    <thead>
+      <tr>
+        <th>view</th>
+        <th>Name</th>
+        <th>Price (USD)</th>
+      </tr>
+    </thead>
+    <tbody id="crypTable" style="font-size: 16px;">
+    </tbody>
+  </table>
+  <div id="winner"></div>
+    <script src="index.js"></script>
+</body>
+</html>
