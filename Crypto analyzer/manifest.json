@@ -10,7 +10,8 @@
         "120": "logo.png"
     },
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ],
     "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
 }
